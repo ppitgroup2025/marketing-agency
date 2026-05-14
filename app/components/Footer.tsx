@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Aperture } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-6">
               <div className="w-8 h-8 rounded bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                <span className="font-display font-bold text-white text-xl">A</span>
+                <Aperture className="text-white w-5 h-5" />
               </div>
               <span className="font-display font-bold text-2xl tracking-tight text-white">
                 Apex.
@@ -34,17 +34,19 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Locations */}
+          {/* Locations & Contact */}
           <div>
             <h4 className="text-lg font-semibold mb-6">Global Offices</h4>
             <ul className="space-y-6">
               <li>
-                <strong className="block text-white mb-1">Dubai (HQ)</strong>
-                <p className="text-gray-400 text-sm">Dubai Design District<br />Building 3, Floor 4</p>
+                <strong className="block text-white mb-1">Sana'a (HQ)</strong>
+                <p className="text-gray-400 text-sm">Sana'a<br />Yemen</p>
               </li>
               <li>
-                <strong className="block text-white mb-1">London</strong>
-                <p className="text-gray-400 text-sm">Shoreditch High St<br />London E1 6PQ</p>
+                <strong className="block text-white mb-1">Get in touch</strong>
+                <a href="mailto:ppitgroup2025@gmail.com" className="text-gray-400 text-sm hover:text-white transition-colors">
+                  ppitgroup2025@gmail.com
+                </a>
               </li>
             </ul>
           </div>

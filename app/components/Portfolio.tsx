@@ -5,16 +5,16 @@ import { ArrowUpRight, Star } from "lucide-react";
 
 const projects = [
   {
-    client: "Aura Hospitality",
-    category: "Web & Performance",
+    client: "Project Slot 1",
+    category: "Category Placeholder",
     image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1974&auto=format&fit=crop",
-    metric: "+150% Bookings",
+    metric: "Metric Placeholder",
   },
   {
-    client: "Evolve Real Estate",
-    category: "Brand & Digital",
+    client: "Project Slot 2",
+    category: "Category Placeholder",
     image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop",
-    metric: "$20M Pipeline",
+    metric: "Metric Placeholder",
   },
 ];
 

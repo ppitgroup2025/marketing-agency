@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Globe, ChevronRight } from "lucide-react";
+import { Menu, X, Globe, ChevronRight, Aperture } from "lucide-react";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,7 +33,7 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 rounded bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-            <span className="font-display font-bold text-white text-xl">A</span>
+            <Aperture className="text-white w-5 h-5" />
           </div>
           <span className="font-display font-bold text-2xl tracking-tight text-white">
             Apex.
